@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92C06D"
+    tools:context=".IniciarSesionActivity">
+
+    <TextView
+        android:id="@+id/textView1_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/textView1_registar"
+        android:textColor="#203945"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2_registar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/inknut_antiqua_extrabold"
+        android:text="@string/textView2_registar"
+        android:textAlignment="center"
+        android:textColor="#203945"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1_registar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/editText1_registar"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:textColorHint="#A7B0C0"
+        android:viewportWidth="327"
+        android:viewportHeight="50"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_registar" />
+
+    <EditText
+        android:id="@+id/editText2_registrar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/editText2_registar"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:textColorHint="#A7B0C0"
+        android:viewportWidth="327"
+        android:viewportHeight="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1_registar" />
+
+    <EditText
+        android:id="@+id/editText2_registrar3"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/editText3_registar"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:textColorHint="#A7B0C0"
+        android:viewportWidth="327"
+        android:viewportHeight="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2_registrar" />
+
+    <Button
+        android:id="@+id/button1_registrar"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#418C56"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/button1_registar"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2_registrar3" />
+
+    <ImageView
+        android:id="@+id/imageView1_registar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1_registrar"
+        app:srcCompat="@drawable/mercado_imagen_9" />
+
+    <CheckBox
+        android:id="@+id/checkBox1_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/checkBox1_registrar"
+        android:textAlignment="viewStart"
+        android:textColor="#203945"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1_registrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

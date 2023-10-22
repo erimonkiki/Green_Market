@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Green_Market</string>
+
+    <!-- Iniciar sesión activity -->
+    <string name="textView1_iniciar">Regístrate</string>
+    <string name="textView2_iniciar">Iniciar sesión</string>
+    <string name="editText1_iniciar">Email</string>
+    <string name="editText2_iniciar">Contraseña</string>
+    <string name="button1_iniciar">Iniciar sesión</string>
+    <string name="textView3_iniciar">¿Olvidaste tu contraseña?</string>
+
+    <!-- Registar activity -->
+    <string name="textView1_registar">Iniciar sesión</string>
+    <string name="textView2_registar">Regístrate</string>
+    <string name="editText1_registar">Nombre</string>
+    <string name="editText2_registar">Email</string>
+    <string name="editText3_registar">Contraseña</string>
+    <string name="button1_registar">Regístrate</string>
+    <string name="checkBox1_registrar">Regístrate como proveedor</string>
+
+</resources>
