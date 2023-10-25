@@ -24,6 +24,8 @@ public class IniciarSesionActivity extends AppCompatActivity {
     protected Intent pasarPantalla;
     protected String box1content;
     protected String box2content;
+    protected String email;
+    protected String contraseña;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,11 +39,21 @@ public class IniciarSesionActivity extends AppCompatActivity {
         boton1= (Button) findViewById(R.id.button1_registrar);
         label3= (TextView) findViewById(R.id.textView3_iniciar);
         imagen1=(ImageView) findViewById(R.id.imageView1_iniciar);
-
+        
+        label1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Crear un Intent para pasar a la actividad RegistrarActivity
+                pasarPantalla = new Intent(IniciarSesionActivity.this, RegistrarActivity.class);
+                startActivity(pasarPantalla);
+            }
+        });
 
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                email = caja1.getText().toString();
+                 contraseña = caja2.getText().toString();
                 box1content = caja1.getText().toString();
                 box2content = caja2.getText().toString();
                 if (box1content.equals("") || box2content.equals("")) {
