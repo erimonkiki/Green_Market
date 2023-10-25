@@ -46,6 +46,15 @@ public class RegistrarActivity extends AppCompatActivity {
         imagen1=(ImageView) findViewById(R.id.imageView1_registar);
         boton2=(Button) findViewById(R.id.checkBox1_registrar);
 
+                 label1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Crear un Intent para pasar a la actividad IniciarSesionActivity
+                pasarPantalla = new Intent(RegistrarActivity.this, IniciarSesionActivity.class);
+                startActivity(pasarPantalla);
+            }
+        });
+
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
