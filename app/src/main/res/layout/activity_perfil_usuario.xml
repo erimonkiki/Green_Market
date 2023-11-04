@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92C06D"
+    tools:context=".PerfilUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/imageView1_perfil"
+        android:layout_width="225dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mercado_imagen_9" />
+
+    <TextView
+        android:id="@+id/textView1_perfil"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F3F1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1_perfil"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1_perfil"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView2_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:text="¡Hola de nuevo!"
+        android:textColor="#121111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_perfil" />
+
+    <TextView
+        android:id="@+id/textView3_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Cuenta"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/textView4_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:text="Mis pedidos"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView5_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:text="Mi información"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="@+id/textView1_perfil"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/textView6_perfil"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:text="Suscripción premium"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imageView2_perfil"
+        android:layout_width="56dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/manzanita"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <ImageView
+        android:id="@+id/imageView3_perfil"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView1_perfil"
+        app:srcCompat="@mipmap/id_card"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <ImageView
+        android:id="@+id/imageView4_perfil"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4_perfil"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/folder" />
+
+    <ImageView
+        android:id="@+id/imageView5_perfil"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/black_lives_matter"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imageView6_perfil"
+        android:layout_width="15dp"
+        android:layout_height="19dp"
+        app:srcCompat="@mipmap/siguiente"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <ImageView
+        android:id="@+id/imageView7_perfil"
+        android:layout_width="15dp"
+        android:layout_height="19dp"
+        app:srcCompat="@mipmap/siguiente"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1_perfil"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="64dp"
+        android:background="#F3F1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/salir" />
+
+    <ImageButton
+        android:id="@+id/imageButton2_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:background="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/siguiente"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView7_perfil"
+        android:layout_width="274dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="Cerrar sesión"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1_perfil"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:background="#F4F2F2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/atras" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

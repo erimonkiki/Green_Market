@@ -43,7 +43,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
         label1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Crear un Intent para pasar a la actividad RegistrarActivity
+
                 pasarPantalla = new Intent(IniciarSesionActivity.this, RegistrarActivity.class);
                 startActivity(pasarPantalla);
             }
@@ -53,7 +53,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 email = caja1.getText().toString();
-                 contraseña = caja2.getText().toString();
+                contraseña = caja2.getText().toString();
                 box1content = caja1.getText().toString();
                 box2content = caja2.getText().toString();
                 if (box1content.equals("") || box2content.equals("")) {
