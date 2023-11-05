@@ -10,7 +10,7 @@ import android.widget.ImageView;
 public class ProductoresActivity extends AppCompatActivity {
     protected Intent pasarPantalla;
     protected ImageView imagen1;
-
+    //ESTO ES UN COMENTARIO
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
