@@ -63,7 +63,7 @@ public class PerfilUsuarioActivity extends AppCompatActivity {
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            //    pasarPantalla = new Intent(PerfilUsuarioActivity.this, ProductoresActivity.class);
+                pasarPantalla = new Intent(PerfilUsuarioActivity.this, ProductoresActivity.class);
                 startActivity(pasarPantalla);
 
             }

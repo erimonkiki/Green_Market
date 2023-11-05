@@ -33,21 +33,20 @@
         android:id="@+id/editText_perfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="376dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1_perfil"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2_perfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="20dp"
         android:text="¡Hola de nuevo!"
         android:textColor="#121111"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,12 +58,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
         android:text="Cuenta"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4_perfil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4_perfil"
@@ -72,12 +72,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="32dp"
         android:text="Mis pedidos"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5_perfil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="435dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5_perfil"
@@ -85,12 +86,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="40dp"
         android:text="Mi información"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6_perfil"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="@+id/textView1_perfil"
-        tools:layout_editor_absoluteY="488dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView1_perfil" />
 
     <TextView
         android:id="@+id/textView6_perfil"
@@ -98,30 +100,34 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
+        android:layout_marginBottom="60dp"
         android:text="Suscripción premium"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7_perfil"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="557dp" />
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2_perfil"
         android:layout_width="56dp"
         android:layout_height="63dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="244dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/manzanita"
-        tools:layout_editor_absoluteY="236dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/manzanita" />
 
     <ImageView
         android:id="@+id/imageView3_perfil"
         android:layout_width="26dp"
         android:layout_height="25dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView5_perfil"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="@+id/textView1_perfil"
-        app:srcCompat="@mipmap/id_card"
-        tools:layout_editor_absoluteY="491dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4_perfil"
+        app:srcCompat="@mipmap/id_card" />
 
     <ImageView
         android:id="@+id/imageView4_perfil"
@@ -141,46 +147,57 @@
         android:layout_width="26dp"
         android:layout_height="25dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/black_lives_matter"
-        tools:layout_editor_absoluteY="557dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3_perfil"
+        app:srcCompat="@mipmap/black_lives_matter" />
 
     <ImageView
         android:id="@+id/imageView6_perfil"
-        android:layout_width="15dp"
-        android:layout_height="19dp"
-        app:srcCompat="@mipmap/siguiente"
-        tools:layout_editor_absoluteX="354dp"
-        tools:layout_editor_absoluteY="491dp" />
+        android:layout_width="13dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7_perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/siguiente" />
 
     <ImageView
         android:id="@+id/imageView7_perfil"
         android:layout_width="15dp"
         android:layout_height="19dp"
-        app:srcCompat="@mipmap/siguiente"
-        tools:layout_editor_absoluteX="354dp"
-        tools:layout_editor_absoluteY="557dp" />
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toEndOf="@+id/textView6_perfil"
+        app:srcCompat="@mipmap/siguiente" />
 
     <ImageButton
         android:id="@+id/imageButton1_perfil"
         android:layout_width="35dp"
         android:layout_height="36dp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="64dp"
         android:background="#F3F1F1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5_perfil"
+        app:layout_constraintVertical_bias="0.452"
         app:srcCompat="@mipmap/salir" />
 
     <ImageButton
         android:id="@+id/imageButton2_perfil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
         android:background="#FBFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6_perfil"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@mipmap/siguiente"
-        tools:layout_editor_absoluteY="438dp" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4_perfil"
+        app:srcCompat="@mipmap/siguiente" />
 
     <TextView
         android:id="@+id/textView7_perfil"
@@ -188,12 +205,13 @@
         android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="60dp"
+        android:layout_marginBottom="72dp"
         android:text="Cerrar sesión"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton1_perfil"
-        tools:layout_editor_absoluteY="638dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageButton1_perfil" />
 
     <ImageButton
         android:id="@+id/imageButton3_perfil"
