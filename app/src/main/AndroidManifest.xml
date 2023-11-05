@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Green_Market"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityPrueba"
+            android:name=".ProductoresActivity"
             android:exported="false" />
         <activity
             android:name=".PerfilUsuarioActivity"

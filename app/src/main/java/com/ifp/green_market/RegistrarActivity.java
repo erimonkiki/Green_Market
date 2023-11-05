@@ -14,14 +14,14 @@ import android.widget.Toast;
 public class RegistrarActivity extends AppCompatActivity {
 
 
-     protected TextView label1;
-     protected TextView label2;
-     protected EditText caja1;
-     protected EditText caja2;
-     protected EditText caja3;
-     protected Button boton1;
-     protected Button boton2;
-     protected ImageView imagen1;
+    protected TextView label1;
+    protected TextView label2;
+    protected EditText caja1;
+    protected EditText caja2;
+    protected EditText caja3;
+    protected Button boton1;
+    protected Button boton2;
+    protected ImageView imagen1;
 
     protected Intent pasarPantalla;
 
@@ -46,7 +46,7 @@ public class RegistrarActivity extends AppCompatActivity {
         imagen1=(ImageView) findViewById(R.id.imageView1_registar);
         boton2=(Button) findViewById(R.id.checkBox1_registrar);
 
-                 label1.setOnClickListener(new View.OnClickListener() {
+        label1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Crear un Intent para pasar a la actividad IniciarSesionActivity
@@ -67,7 +67,7 @@ public class RegistrarActivity extends AppCompatActivity {
 
                     Toast.makeText(RegistrarActivity.this, "texto crado correctamente", Toast.LENGTH_SHORT).show();
 
-                    pasarPantalla = new Intent(RegistrarActivity.this, RegistrarActivity.class);
+                    pasarPantalla = new Intent(RegistrarActivity.this, IniciarSesionActivity.class);
                     finish();
                     startActivity(pasarPantalla);
                 }

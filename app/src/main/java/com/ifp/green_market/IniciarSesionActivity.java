@@ -36,14 +36,14 @@ public class IniciarSesionActivity extends AppCompatActivity {
         label2= (TextView) findViewById(R.id.textView2_iniciar);
         caja1= (EditText) findViewById(R.id.editText1_iniciar);
         caja2= (EditText) findViewById(R.id.editText2_iniciar);
-        boton1= (Button) findViewById(R.id.button1_registrar);
+        boton1= (Button) findViewById(R.id.button1_iniciar);
         label3= (TextView) findViewById(R.id.textView3_iniciar);
         imagen1=(ImageView) findViewById(R.id.imageView1_iniciar);
-        
+
         label1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                // Crear un Intent para pasar a la actividad RegistrarActivity
                 pasarPantalla = new Intent(IniciarSesionActivity.this, RegistrarActivity.class);
                 startActivity(pasarPantalla);
             }
@@ -62,7 +62,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
 
                     Toast.makeText(IniciarSesionActivity.this, "texto crado correctamente", Toast.LENGTH_SHORT).show();
 
-                    pasarPantalla = new Intent(IniciarSesionActivity.this, RegistrarActivity.class);
+                    pasarPantalla = new Intent(IniciarSesionActivity.this, ProductoresActivity.class);
                     finish();
                     startActivity(pasarPantalla);
                 }
