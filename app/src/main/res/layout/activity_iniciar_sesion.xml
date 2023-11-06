@@ -67,7 +67,7 @@
         android:background="@drawable/edit_text"
         android:ems="10"
         android:hint="@string/editText2_iniciar"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:paddingStart="12dp"
         android:textColorHint="#A7B0C0"
         android:viewportWidth="327"
