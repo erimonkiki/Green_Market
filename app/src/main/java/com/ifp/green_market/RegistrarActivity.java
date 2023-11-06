@@ -37,14 +37,14 @@ public class RegistrarActivity extends AppCompatActivity {
 
 
 
-        label1= (TextView) findViewById(R.id.textView1_registrar);
-        label2= (TextView) findViewById(R.id.textView2_registar);
-        caja1= (EditText) findViewById(R.id.editText1_registar);
-        caja2= (EditText) findViewById(R.id.editText2_registrar);
-        caja3= (EditText) findViewById(R.id.editText2_registrar3);
-        boton1= (Button) findViewById(R.id.button1_registrar);
+        label1= (TextView) findViewById(R.id.textView_IniciarSesion_registrar);
+        label2= (TextView) findViewById(R.id.textView_Registrate_registar);
+        caja1= (EditText) findViewById(R.id.editText_Nombre_registar);
+        caja2= (EditText) findViewById(R.id.editText_Email_registrar);
+        caja3= (EditText) findViewById(R.id.editText_Contrasena_registrar);
+        boton1= (Button) findViewById(R.id.button_Registrate_registrar);
         imagen1=(ImageView) findViewById(R.id.imageView1_registar);
-        boton2=(Button) findViewById(R.id.checkBox1_registrar);
+        boton2=(Button) findViewById(R.id.checkBox_Proveedor_registrar);
 
         label1.setOnClickListener(new View.OnClickListener() {
             @Override
