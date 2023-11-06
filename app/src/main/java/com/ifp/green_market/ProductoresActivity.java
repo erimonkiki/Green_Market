@@ -15,7 +15,7 @@ public class ProductoresActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_productores);
 
-        imagen1=(ImageView) findViewById(R.id.imageView1_Productores);
+        imagen1=(ImageView) findViewById(R.id.imageView_IconoPerfil_Productores);
 
         imagen1.setOnClickListener(new View.OnClickListener() {
             @Override

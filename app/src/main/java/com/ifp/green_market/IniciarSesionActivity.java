@@ -32,12 +32,12 @@ public class IniciarSesionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_iniciar_sesion);
 
 
-        label1= (TextView) findViewById(R.id.textView1_iniciar);
-        label2= (TextView) findViewById(R.id.textView2_iniciar);
-        caja1= (EditText) findViewById(R.id.editText1_iniciar);
-        caja2= (EditText) findViewById(R.id.editText2_iniciar);
-        boton1= (Button) findViewById(R.id.button1_iniciar);
-        label3= (TextView) findViewById(R.id.textView3_iniciar);
+        label1= (TextView) findViewById(R.id.textView_Registrate_iniciar);
+        label2= (TextView) findViewById(R.id.textView_IniciarSesion_iniciar);
+        caja1= (EditText) findViewById(R.id.editText_Email_iniciar);
+        caja2= (EditText) findViewById(R.id.editText_Contrasena_iniciar);
+        boton1= (Button) findViewById(R.id.button_IniciarSesion_iniciar);
+        label3= (TextView) findViewById(R.id.textView_Olvidaste_iniciar);
         imagen1=(ImageView) findViewById(R.id.imageView1_iniciar);
 
         label1.setOnClickListener(new View.OnClickListener() {

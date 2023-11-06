@@ -7,7 +7,7 @@
     tools:context=".ProductoresActivity">
 
     <ImageView
-        android:id="@+id/imageView1_Productores"
+        android:id="@+id/imageView_IconoPerfil_Productores"
         android:layout_width="43dp"
         android:layout_height="43dp"
         android:layout_marginStart="26dp"
@@ -37,6 +37,7 @@
         app:srcCompat="@drawable/filter_outline_9" />
 
     <ScrollView
+        android:id="@+id/ScrollView_Productores"
         android:layout_width="417dp"
         android:layout_height="627dp"
         app:layout_constraintBottom_toBottomOf="parent"

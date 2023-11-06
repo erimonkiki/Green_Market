@@ -8,7 +8,7 @@
     tools:context=".SplashActivity" >
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewSplash_splash"
         android:layout_width="347dp"
         android:layout_height="614dp"
         android:layout_marginStart="32dp"

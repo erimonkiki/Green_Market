@@ -2,7 +2,6 @@ package com.ifp.green_market;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -42,23 +41,23 @@ public class PerfilUsuarioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_perfil_usuario);
 
         label1= (TextView) findViewById(R.id.textView1_perfil);
-        label2= (TextView) findViewById(R.id.textView2_perfil);
-        label3= (TextView) findViewById(R.id.textView3_perfil);
-        label4= (TextView) findViewById(R.id.textView4_perfil);
-        label5= (TextView) findViewById(R.id.textView5_perfil);
-        label6= (TextView) findViewById(R.id.textView6_perfil);
-        label7= (TextView) findViewById(R.id.textView7_perfil);
-        caja1= (EditText) findViewById(R.id.editText_perfil);
-        imagen1= (ImageView) findViewById(R.id.imageView1_perfil);
-        imagen2=(ImageView) findViewById(R.id.imageView2_perfil);
-        imagen3= (ImageView) findViewById(R.id.imageView3_perfil);
-        imagen4= (ImageView) findViewById(R.id.imageView4_perfil);
-        imagen5= (ImageView) findViewById(R.id.imageView5_perfil);
-        imagen6= (ImageView) findViewById(R.id.imageView6_perfil);
-        imagen7= (ImageView) findViewById(R.id.imageView7_perfil);
-        imageButton1= (ImageButton) findViewById(R.id.imageButton1_perfil);
-        imageButton2= (ImageButton) findViewById(R.id.imageButton2_perfil);
-        imageButton3= (ImageButton) findViewById(R.id.imageButton3_perfil);
+        label2= (TextView) findViewById(R.id.textViewHola_perfil);
+        label3= (TextView) findViewById(R.id.textView_Cuenta_perfil);
+        label4= (TextView) findViewById(R.id.textView_MisPedidos_perfil);
+        label5= (TextView) findViewById(R.id.textView_MiInformacion_perfil);
+        label6= (TextView) findViewById(R.id.textView_SuscPremium_perfil);
+        label7= (TextView) findViewById(R.id.textView_CerrarSesion_perfil);
+        caja1= (EditText) findViewById(R.id.editTextNombreUsuario_perfil);
+        imagen1= (ImageView) findViewById(R.id.imageView_Portada_perfil);
+        imagen2=(ImageView) findViewById(R.id.imageView_IconoPerfil_perfil);
+        imagen3= (ImageView) findViewById(R.id.imageView_Info_perfil);
+        imagen4= (ImageView) findViewById(R.id.imageView_IconoPedidos_perfil);
+        imagen5= (ImageView) findViewById(R.id.imageView_IconoPremium_perfil);
+        imagen6= (ImageView) findViewById(R.id.imageView_Flecha2_perfil);
+        imagen7= (ImageView) findViewById(R.id.imageView_Flecha3_perfil);
+        imageButton1= (ImageButton) findViewById(R.id.imageButton_CerrarSesion_perfil);
+        imageButton2= (ImageButton) findViewById(R.id.imageButton_Flecha1_perfil);
+        imageButton3= (ImageButton) findViewById(R.id.imageButtonAtras_perfil);
 
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override

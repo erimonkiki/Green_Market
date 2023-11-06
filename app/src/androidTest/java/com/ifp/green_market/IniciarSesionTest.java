@@ -34,7 +34,7 @@ public class IniciarSesionTest {
         assertEquals("com.ifp.green_market", appContext.getPackageName());
 
         // Verificar que el elemento con el ID R.id.myTextView esté presente y contenga el texto esperado
-        onView(ViewMatchers.withId(R.id.textView1_iniciar))
+        onView(ViewMatchers.withId(R.id.textView_Registrate_iniciar))
                 .check(ViewAssertions.matches(ViewMatchers.isDisplayed()))
                 .check(ViewAssertions.matches(ViewMatchers.withText("Regístrate")));
 

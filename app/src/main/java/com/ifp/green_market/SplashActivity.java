@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        imagen1= (ImageView) findViewById(R.id.imageView2);
+        imagen1= (ImageView) findViewById(R.id.imageViewSplash_splash);
 
         TimerTask tt = new TimerTask() {
             @Override
